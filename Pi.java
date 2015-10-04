@@ -43,7 +43,7 @@ public class Pi {
         byte[] realPiBytes = getRealPi().getBytes("ASCII");
 
         while (true) {
-            // Main main of the algorithm.
+            // Main loop of the algorithm.
             BigDecimal y = a;
             a = a.add(b).divide(TWO, MC);
             b = bigSqrt(b.multiply(y));
