@@ -7,7 +7,7 @@ takes about one second and there are 16 iterations. Run using the `GO` script:
 
     % ./GO
 
-Change the value of PRECISION in the code to 50 to see the accuracy increase
+Change the value of `PRECISION` in the code to 50 to see the accuracy increase
 with each iteration:
 
     % ./GO
@@ -20,4 +20,5 @@ with each iteration:
     Accurate to 41 digits.
     3.1415926535897932384626433832795028841971146782836
     Accurate to 50 digits.
+    3.1415926535897932384626433832795028841971693993751
 

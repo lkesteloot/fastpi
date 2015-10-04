@@ -58,14 +58,14 @@ public class Pi {
             int accuracy = getCommonByteCount(piBytes, realPiBytes);
             // Subtract one because we don't count the decimal point.
             System.out.printf("Accurate to %,d digits.%n", accuracy - 1);
-            if (accuracy >= PRECISION - 5) {
-                // Can't get any better.
-                break;
-            }
-
             // Print if it'll fit in the terminal window.
             if (PRECISION < 75) {
                 System.out.println(pi);
+            }
+
+            if (accuracy >= PRECISION - 5) {
+                // Can't get any better.
+                break;
             }
         }
     }
