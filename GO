@@ -1,0 +1,1 @@
+javac Pi.java && java Pi
